@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library Seat Allocation</title>
+ <link rel="icon" href="lib_icon.png" type="image/png">
+
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="main-container">
+    <h1>📚 College Library Seat Management</h1>
+<img src="lib_pic.jpg" alt="Library Icon" class="header-icon">
+    <form id="allocationForm" method="POST" action="/allocate">
+      <input type="text" name="regNumber" placeholder="Registration Number" required />
+      <input type="text" name="libraryCode" placeholder="Library Code" required />
+      <button type="submit">🎫 Allocate a Seat</button>
+    </form>
+
+    <div id="confirmationMessage"></div>
+
+    <div class="buttons">
+      <a href="availability.html" class="view-button">📊 View Availability</a>
+    </div>
+  </div>
+
+  <!-- Popup Overlay -->
+  <div id="popupOverlay" class="popup-overlay" style="display:none;">
+    <div class="popup-content">
+      <p>Choose the seat on the next page.</p>
+      <button id="selectSeatBtn" class="popup-button">select seat</button>
+    </div>
+  </div>
+</body>
+</html>
