@@ -19,13 +19,6 @@ A web-based application designed to streamline seat allocation in college librar
 
 ---
 
-## 🖼️ Preview
-
-<!-- Add screenshot here -->
-![Screenshot](path/to/screenshot.png)
-
----
-
 ## 🛠️ Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript  
@@ -52,10 +45,3 @@ cd Library-management-system
 # npm install
 # npm start
 
-📌 Usage
-
-From the landing page, click Allocate a Seat to begin seat reservation.
-
-Use View Availability to check currently open seats.
-
-Finalize your seat allocation via the interactive workflow.
